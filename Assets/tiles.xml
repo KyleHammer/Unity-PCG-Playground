@@ -1,0 +1,36 @@
+<set>
+  <tiles>
+<tile name="SpelunkyResources/ClayTile" symmetry="X" weight="1.0"/>
+<tile name="SpelunkyResources/WoodTile" symmetry="X" weight="1.0"/>
+<tile name="SpelunkyResources/LadderTile" symmetry="X" weight="1.0"/>
+<tile name="SpelunkyResources/GoldTile" symmetry="X" weight="1.0"/>
+<tile name="SpelunkyResources/WebTile" symmetry="X" weight="1.0"/>
+<tile name="SpelunkyResources/Pickup" symmetry="X" weight="1.0"/>
+<tile name="SpelunkyResources/Enemy" symmetry="X" weight="1.0"/>
+<tile name="SpelunkyResources/PlatformTile" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="SpelunkyResources/ClayTile 0" right="SpelunkyResources/ClayTile 0"/>
+  <neighbor left="SpelunkyResources/ClayTile 1" right="SpelunkyResources/ClayTile 1"/>
+  <neighbor left="SpelunkyResources/ClayTile 1" right="SpelunkyResources/GoldTile 1"/>
+  <neighbor left="SpelunkyResources/ClayTile 0" right="SpelunkyResources/GoldTile 0"/>
+  <neighbor left="SpelunkyResources/GoldTile 0" right="SpelunkyResources/ClayTile 0"/>
+  <neighbor left="SpelunkyResources/GoldTile 1" right="SpelunkyResources/ClayTile 1"/>
+  <neighbor left="SpelunkyResources/ClayTile 0" right="SpelunkyResources/WoodTile 0"/>
+  <neighbor left="SpelunkyResources/WoodTile 1" right="SpelunkyResources/ClayTile 1"/>
+  <neighbor left="SpelunkyResources/ClayTile 1" right="SpelunkyResources/LadderTile 1"/>
+  <neighbor left="SpelunkyResources/GoldTile 1" right="SpelunkyResources/PlatformTile 1"/>
+  <neighbor left="SpelunkyResources/ClayTile 1" right="SpelunkyResources/PlatformTile 1"/>
+  <neighbor left="SpelunkyResources/ClayTile 1" right="SpelunkyResources/Pickup 1"/>
+  <neighbor left="SpelunkyResources/ClayTile 1" right="SpelunkyResources/Enemy 1"/>
+  <neighbor left="SpelunkyResources/LadderTile 1" right="SpelunkyResources/LadderTile 1"/>
+  <neighbor left="SpelunkyResources/ClayTile 0" right="SpelunkyResources/PlatformTile 0"/>
+  <neighbor left="SpelunkyResources/PlatformTile 0" right="SpelunkyResources/ClayTile 0"/>
+  <neighbor left="SpelunkyResources/PlatformTile 0" right="SpelunkyResources/Pickup 0"/>
+  <neighbor left="SpelunkyResources/Enemy 1" right="SpelunkyResources/ClayTile 1"/>
+  <neighbor left="SpelunkyResources/Enemy 1" right="SpelunkyResources/WoodTile 1"/>
+  <neighbor left="SpelunkyResources/LadderTile 0" right="SpelunkyResources/WoodTile 0"/>
+  <neighbor left="SpelunkyResources/WoodTile 0" right="SpelunkyResources/WoodTile 0"/>
+  <neighbor left="SpelunkyResources/WoodTile 1" right="SpelunkyResources/WebTile 1"/>
+  <neighbor left="SpelunkyResources/WoodTile 1" right="SpelunkyResources/Pickup 1"/>
+	</neighbors>
+</set>
