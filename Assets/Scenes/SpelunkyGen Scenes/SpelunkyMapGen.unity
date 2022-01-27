@@ -251,8 +251,8 @@ Camera:
   m_GameObject: {fileID: 1037526529}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.015686275}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a02b33e96fcc84b8597d53291749c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assignGoalTiles: 0
+  refreshTiles: 0
   basicMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   greenMaterial: {fileID: 2100000, guid: f55545095949e074581805e33236da0f, type: 2}
   yellowMaterial: {fileID: 2100000, guid: 0616982d763bc954f87737540565a527, type: 2}
